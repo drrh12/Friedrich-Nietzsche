@@ -1808,8 +1808,9 @@
 /* Box */
 
 	.box {
-		margin-bottom: 2rem;
+		margin-bottom: 10rem;
 		background: #FFF;
+		
 	}
 
 		.box .image.fit {
@@ -4310,3 +4311,17 @@
 			}
 
 		}
+
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.content{
+	width: 200%;
+}
